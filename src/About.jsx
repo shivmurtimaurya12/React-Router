@@ -6,7 +6,7 @@ function About() {
       <div>
         <h1>This is about section </h1>
         <nav>
-          <Link to="/app/about/abouttopic">About the guy</Link>
+          <Link to="/about/abouttopic">About the guy</Link>
         </nav>
       <Outlet/>
       </div>

@@ -5,7 +5,7 @@ function Info() {
   return (
     <>
       <h1>This is Info section</h1>
-      <Link to="/app/info/infotopic">Info Topic</Link>
+      <Link to="/info/infotopic">Info Topic</Link>
       <Outlet />
     </>
   );

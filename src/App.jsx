@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes, Link, Outlet } from "react-router-dom";
+import { Route, Routes, Link } from "react-router-dom";
 // import './App.css'
 import Head from "./Head.jsx";
 import About from "./About.jsx";
@@ -16,11 +16,11 @@ function App() {
     <>
       {/* navigation */}
       <nav style={{ display: "flex", justifyContent: "space-evenly" }}>
-        <Link to="/app/head">Head</Link>
-        <Link to="/app/about">About</Link>
-        <Link to="/app/contact">Contact</Link>
+        <Link to="/head">Head</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
 
-        <Link to="/app/info">Info</Link>
+        <Link to="/info">Info</Link>
       </nav>
 
       <h1 style={{ textAlign: "center", color: "red" }}>Main Page</h1>

@@ -5,7 +5,7 @@ function Head() {
   return (
     <>
       <h1>hello This is head</h1>
-      <Link to="/app/head/headtopic">Head Topic</Link>
+      <Link to="/head/headtopic">Head Topic</Link>
       <Outlet/>
       
     </>

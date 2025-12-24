@@ -4,7 +4,7 @@ function Contact() {
   return (
     <>
       <h1>This is contact section </h1>
-      <Link to="/app/contact/contacts">contacts number</Link>
+      <Link to="/contact/contacts">contacts number</Link>
       <Outlet />
     </>
   );
