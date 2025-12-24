@@ -16,6 +16,7 @@ function App() {
     <>
       {/* navigation */}
       <nav style={{ display: "flex", justifyContent: "space-evenly" }}>
+        <Link to="/">Home </Link>
         <Link to="/head">Head</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
